@@ -22,7 +22,7 @@ cities.forEach(city => {
 
 document.getElementById('getWeatherDropdown').addEventListener('click', function() {
     const city = document.getElementById('cityDropdown').value;
-    const apiKey = '7a920cb3a3383cef2e964a43532171ce'; // OpenWeatherMap API anahtarınızı buraya ekleyin
+    const apiKey = '7a920cb3a3383cef2e964a43532171ce';
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric&lang=tr`;
 
     fetch(url)
@@ -54,7 +54,7 @@ document.getElementById('getWeatherDropdown').addEventListener('click', function
 
 document.getElementById('getWeatherInput').addEventListener('click', function() {
     const city = document.getElementById('cityInput').value;
-    const apiKey = '7a920cb3a3383cef2e964a43532171ce'; // OpenWeatherMap API anahtarınızı buraya ekleyin
+    const apiKey = '7a920cb3a3383cef2e964a43532171ce';
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric&lang=tr`;
 
     fetch(url)
@@ -84,7 +84,7 @@ document.getElementById('getWeatherInput').addEventListener('click', function() 
         });
 });
 
-// Canlı tarih ve saat fonksiyonu
+
 function updateDateTime() {
     const now = new Date();
     const datetime = now.toLocaleString('tr-TR', {
@@ -99,7 +99,7 @@ function updateDateTime() {
     document.getElementById('datetime').textContent = datetime;
 }
 
-// Sayfa yüklendiğinde tarih ve saati güncelle ve her saniye yenile
+
 window.onload = function() {
     updateDateTime();
     setInterval(updateDateTime, 1000);

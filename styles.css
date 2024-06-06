@@ -22,14 +22,14 @@ h1 {
 }
 
 #datetime {
-    font-size: 20px; /* Daha büyük yazı boyutu */
-    color:chocolate; /* Belirgin renk */
-    margin-bottom: 20px; /* Alt boşluk */
-    font-weight: bold; /* Kalın yazı */
+    font-size: 20px; 
+    color:chocolate; 
+    margin-bottom: 20px; 
+    font-weight: bold; 
 }
 
 .weather-app div {
-    margin-bottom: 20px; /* Her div arasında boşluk bırak */
+    margin-bottom: 20px;
 }
 
 label {
@@ -37,7 +37,7 @@ label {
 }
 
 input, select {
-    margin: 0 10px; /* Input ve select öğeleri arasında boşluk bırak */
+    margin: 0 10px; 
     padding: 5px;
     font-size: 14px;
 }
@@ -56,10 +56,10 @@ button:hover {
 }
 
 button + button {
-    margin-left: 20px; /* Butonlar arasında boşluk bırak */
+    margin-left: 20px;
 }
 
 #weatherDetailsDropdown, #weatherDetailsInput {
-    margin-top: 20px; /* Sonuçlar için üstten boşluk bırak */
+    margin-top: 20px;
     font-size: 16px;
 }
