@@ -12,7 +12,7 @@ const cities = [
 
 const cityDropdown = document.getElementById('cityDropdown');
 
-// Şehirleri dropdown'a ekleyin
+
 cities.forEach(city => {
     const option = document.createElement('option');
     option.value = city;
