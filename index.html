@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hava Durumu Uygulaması</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="weather-app">
+        <h1>Hava Durumu</h1>
+        <div id="datetime"></div> <!-- Canlı tarih ve saat için yeni div -->
+        <div>
+            <b><label for="cityDropdown">Türkiye'deki Şehir:</label></b>
+            <select id="cityDropdown">
+            </select>
+            <button id="getWeatherDropdown">Hava Durumunu Al</button>
+        </div>
+        <div>
+            <b><label for="cityInput">Dünya Genelinde Şehir:</label></b>
+            <input type="text" id="cityInput" placeholder="Şehir Giriniz">
+            <button id="getWeatherInput">Hava Durumunu Al</button>
+        </div>
+        <div id="weatherDetailsDropdown"></div>
+        <div id="weatherDetailsInput"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00b7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: brown;
+}
+
+
+.weather-app {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+#datetime {
+    font-size: 20px; /* Daha büyük yazı boyutu */
+    color:chocolate; /* Belirgin renk */
+    margin-bottom: 20px; /* Alt boşluk */
+    font-weight: bold; /* Kalın yazı */
+}
+
+.weather-app div {
+    margin-bottom: 20px; /* Her div arasında boşluk bırak */
+}
+
+label {
+    font-size: 16px;
+}
+
+input, select {
+    margin: 0 10px; /* Input ve select öğeleri arasında boşluk bırak */
+    padding: 5px;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+button + button {
+    margin-left: 20px; /* Butonlar arasında boşluk bırak */
+}
+
+#weatherDetailsDropdown, #weatherDetailsInput {
+    margin-top: 20px; /* Sonuçlar için üstten boşluk bırak */
+    font-size: 16px;
+}
