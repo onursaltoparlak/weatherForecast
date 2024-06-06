@@ -2,7 +2,7 @@ Hava Durumu Uygulaması
 
 Bu hava durumu uygulaması, Türkiye'deki ve dünya genelindeki şehirlerin hava durumunu görüntülemenize olanak tanır. Ayrıca, canlı tarih ve saat bilgilerini de sağlar.
 
-Nasıl Kullanılır
+Nasıl Kullanılır?
 
 Türkiye'deki Şehirler İçin Hava Durumu
 
