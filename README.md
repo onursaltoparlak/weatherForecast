@@ -13,6 +13,7 @@ Dünya Genelinde Şehirler İçin Hava Durumu
 
 Dünya genelindeki herhangi bir şehir için hava durumunu öğrenmek isterseniz, "Dünya Genelinde Şehir" bölümündeki metin kutusuna şehir adını yazın.
 "Hava Durumunu Al" düğmesine tıklayarak hava durumu bilgilerini alın.
+
 Canlı Tarih ve Saat
 
 
