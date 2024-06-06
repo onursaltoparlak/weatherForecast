@@ -24,6 +24,7 @@ Kullanılan Teknolojiler
 HTML
 CSS
 JavaScript
+
 API Kullanımı
 
 Bu uygulama, hava durumu verilerini almak için OpenWeatherMap API kullanmaktadır. API anahtarı, JavaScript dosyasının içine yerleştirilmelidir.
