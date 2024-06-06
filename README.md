@@ -8,6 +8,7 @@ Türkiye'deki Şehirler İçin Hava Durumu
 
 Türkiye'deki şehirlerin hava durumunu görmek için "Türkiye'deki Şehir" bölümünde bulunan dropdown menüden bir şehir seçin.
 Ardından, "Hava Durumunu Al" düğmesine tıklayın.
+
 Dünya Genelinde Şehirler İçin Hava Durumu
 
 
