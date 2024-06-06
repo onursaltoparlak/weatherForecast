@@ -18,7 +18,8 @@ Canlı Tarih ve Saat
 
 
 Sayfanın üst kısmında, "Hava Durumu" başlığının altında canlı tarih ve saat bilgilerini görebilirsiniz.
-Teknolojiler Kullanıldı
+
+Kullanılan Teknolojiler
 
 HTML
 CSS
